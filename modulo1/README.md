@@ -3,7 +3,7 @@
 # 1º exercício
 <p>
     - Crie uma função que dado o objeto a seguir:  
-    <pre><code>
+    ```js
     var endereco = {  
         rua: "Rua dos pinheiros",  
         numero: 1293,  
@@ -11,14 +11,14 @@
         cidade: "São Paulo",  
         uf: "SP"  
     }; 
-    </pre></code>  
+    ```
     Retorne o seguinte conteúdo:  
     <pre><code>O usuário mora em São Paulo / SP, no bairro Centro, na rua "Rua dos Pinheiros" com nº1293.</pre></code>
 </p>
 
 # 2º exercício
 <p>
-    Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:  
+    Crie uma função que dado um intervalo (entre x e y) exiba todos número pares:
     <pre><code>
     function pares(x, y) {  
         // código aqui
@@ -75,11 +75,11 @@
             habilidades: ["VueJS", "Ruby on Rails", "Elixir"]  
         }
     ];
-    </pre></code>  
+    </code></pre>  
     Escreva uma função que produza o seguinte resultado:  
     <pre><code>
     O Diego possui as habilidades: Javascript, ReactJS, Redux  
     O Gabriel possui as habilidades: VueJS, Ruby on Rails, Elixir
-    </pre></code>  
+    </code></pre>  
     Dica: Para percorrer um vetor você deve utilizar a sintaxe for...of e para unir valores de um array com um separador utilize o join.  
 </p>
