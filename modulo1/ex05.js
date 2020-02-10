@@ -15,6 +15,4 @@ var usuarios = [
     }
 ];
 
-
-
 mostrar(usuarios);
