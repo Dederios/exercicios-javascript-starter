@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Exercicio 3</title>
+</head>
+
+<body>
+    <ul id="app">
+
+    </ul>
+    <script>
+        var names = ["Diego", "Gabriel", "Lucas"];
+        var list = document.querySelector('#app');
+        for (name of names) {
+            var liElement = document.createElement('li');
+            var textElement = document.createTextNode(name);
+
+            liElement.appendChild(textElement);
+            list.appendChild(liElement);
+        }
+    </script>
+</body>
+
+</html>
