@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <title>Exercicio 3</title>
+</head>
+
+<body>
+    <ul id="app"></ul>
+
+    <input type="text" name="nome">
+    <button onClick="adicionar()">Adicionar</button>
+
+    <script>
+        var names = ["Diego", "Gabriel", "Lucas"];
+        var list = document.querySelector('#app');
+        var inputElement = document.querySelector('input');
+
+        function addName(name) {
+            var liElement = document.createElement('li');
+            var textElement = document.createTextNode(name);
+
+            liElement.style.fontFamily = 'Arial, Sans Serif';
+            liElement.style.fontSize = '20px';
+
+            liElement.appendChild(textElement);
+            list.appendChild(liElement);
+        }
+
+        function adicionar() {
+            addName(inputElement.value);
+            inputElement.value = "";
+        }
+
+        for (name of names) {
+            addName(name);
+        }
+    </script>
+</body>
+
+</html>
