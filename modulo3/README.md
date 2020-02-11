@@ -6,15 +6,16 @@ segundos retornará se usuário é maior ou não que 18 anos. Se o usuário ter 
 idade o resultado deve cair no .then, caso contrário, no .catch  
 ```js
 function checaIdade(idade) {
- // Retornar uma promise
+    // Retornar uma promise
 }
+
 checaIdade(20)
- .then(function() {
- console.log("Maior que 18");
- })
- .catch(function() {
- console.log("Menor que 18");
- });
+    .then(function() {
+        console.log("Maior que 18");
+    })
+    .catch(function() {
+        console.log("Menor que 18");
+    });
 ```
 
 # 2º exercício
@@ -28,11 +29,11 @@ Basta alterar "diego3g" pelo nome do usuário.
 Depois de preencher o input e adicionar, a seguinte lista deve aparecer abaixo:  
 ```html
 <ul>
- <li>repo1</li>
- <li>repo2</li>
- <li>repo3</li>
- <li>repo4</li>
- <li>repo5</li>
+    <li>repo1</li>
+    <li>repo2</li>
+    <li>repo3</li>
+    <li>repo4</li>
+    <li>repo5</li>
 </ul>
 ```  
 # 3º exercício
