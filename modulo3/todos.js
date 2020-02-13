@@ -11,12 +11,17 @@ function renderTodos() {
         var todoElement = document.createElement('li');
         var todoText = document.createTextNode(todo);
 
+        todoElement.style.fontFamily = 'Arial, sans-serif';
+
         var linkElement = document.createElement('a');
 
         linkElement.setAttribute('href', '#');
 
         var pos = todos.indexOf(todo);
         linkElement.setAttribute('onclick', 'deleteTodo(' + pos + ')');
+
+
+        linkElement.style.textDecoration = 'none';
 
         var linkText = document.createTextNode(' Excluir');
 
@@ -32,7 +37,7 @@ function renderTodos() {
 renderTodos();
 
 function addTodo() {
-    var todoText = inputElement. value;
+    var todoText = inputElement.value;
 
     todos.push(todoText);
     inputElement.value = '';
