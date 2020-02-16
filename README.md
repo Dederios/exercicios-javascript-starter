@@ -10,4 +10,4 @@
 - App de Todos  
 
 # Módulo 4  
-- JS assíncrono  
+- JS assíncrono/Ajax  
