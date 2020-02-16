@@ -1,13 +1,13 @@
 # Desafios do curso de Javascript Starter da Rocketseat
 
-# Módulo 1  
+Módulo 1  
 - Introdução JavaScript  
 
-# Módulo 2  
+Módulo 2  
 - Manipulando a DOM  
 
-# Módulo 3  
+Módulo 3  
 - App de Todos  
 
-# Módulo 4  
+Módulo 4  
 - JS assíncrono/Ajax  
