@@ -25,7 +25,7 @@ A partir do seguinte vetor:
 ```js 
 var nomes = ["Diego", "Gabriel", "Lucas"];
 ```
-Preencha uma lista (<ul>) no HTML com os itens da seguinte forma:  
+Preencha uma lista <code> <ul> </code> no HTML com os itens da seguinte forma:  
 - Diego  
 - Gabriel  
 - Lucas  
